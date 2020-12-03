@@ -1,0 +1,25 @@
+.summaryBox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.credit, .debt{
+    font-weight: bold;
+}
+
+.credit{
+    color: #00cec9
+}
+
+.debt{
+   color: #ff7675
+}
